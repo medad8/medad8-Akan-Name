@@ -1,0 +1,71 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightblue;
+}
+.jumbotron{
+    text-align: center;   
+}
+
+.main{
+    background-image: url('../images/Safe-Water-in-Northern-Ghana-702x336.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 80vh;    
+}
+
+.main >h1{
+    text-align: center;
+    color: rgb(193, 197, 183);
+    text-transform: uppercase;
+    padding: 50px;
+    font-weight: 600;
+} 
+
+.welcome{
+    padding: 20px;    
+}
+.welcome h1>span{
+    color: red;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.welcome >p{
+    font-size: 20px;
+    line-height: 1.8em; 
+    letter-spacing: 2px;   
+}
+.welcome >h3{
+    color: darkorange;
+    text-decoration: underline;
+}
+
+.col-sm{
+    text-align: left;       
+}
+
+.fs11{
+    line-height: 2em;
+}
+
+.hh{
+border-top-color: rgb(211, 175, 15);
+}
+
+.form-border{
+    border: 2px solid rgb(17, 0, 255);
+    border-radius: 4px;
+    padding: 3px;
+    width: 70%;
+    padding:40px;
+}
+
+#footer{
+    background-color: rgb(104, 100, 100);
+}
+
+#Copyright>a{
+    color: white;
+}

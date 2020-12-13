@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghana-AkanNames | Website</title> 
+    <link rel="stylesheet" href="bootstrap/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+    <!-- container -->
+    <div class="container">
+        <!-- navigation -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"> Ghana-AkanNames </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="nav-bar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#welcome">Akan-Names</a>
+                        </li>                  
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- jumbotron (image and text)-->
+        <div class="jumbotron main">
+            <h1>Akan Name WEBSITE</h1>
+            <!-- <p>EJnjoy Our Work</p> -->
+            <p><a class="btn btn-primary btn-lg" href="#birth" role="button">Start Generating</a></p>
+        </div>
+
+        <!-- welcome section // brief description of the website-->
+        <div class="jumbotron welcome" id="welcome">
+            <h1>Akan Names</h1>
+            <p>This ia a website that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+                Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+                
+            <hr class="mt-2 mb-3 hh"><hr class="mt-2 mb-3 hh">            
+            <h3>Below are some of the Ghanaian Names:</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <h6>MALE NAMES</h6>
+                        <ul class="fs11">
+                            <li>Sunday: Kwasi</li>
+                            <li>Monday: Kwadwo</li>
+                            <li>Tuesday: Kwabena</li>
+                            <li>Wednesday: Kwaku</li>
+                            <li>Thursday:  Yaw</li>
+                            <li>Friday: Kofi</li>
+                            <li>Saturday: Kwame</li>
+                        </ul>   
+                    </div>
+                    <div class="col-sm">
+                        <h6>FEMALE NAMES</h6>
+                        <ul class="fs11">
+                            <li>Sunday: Akosua</li>
+                            <li>Monday: Adwoa</li>
+                            <li>Tuesday: Abenaa</li>
+                            <li>Wednesday: Akua</li>
+                            <li>Thursday:  Yaa</li>
+                            <li>Friday: Afua</li>
+                            <li>Saturday: Ama</li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-2 mb-3 hh">
+            <hr class="mt-2 mb-3 hh">
+            <!-- manupulation of data -->
+            <div class="form">    
+                <h4>ENTER YOUR DATE OF BIRTH HERE:</h4>
+                <form class="form-border" id="birth">
+                    <label for="day">DAY:</label>
+                    <input type="text" id="day" maxlength="2" size="4" placeholder="dd" required>&emsp;
+                
+                    <label for="month">MONTH:</label>
+                    <input type="text" id="month" maxlength="2" size="4" placeholder="mm" required>&emsp;
+
+                    <label for="year">YEAR:</label>
+                    <input type="text" id="year" maxlength="4" size="4" placeholder="yy" required>&emsp;
+                    
+                    <label>GENDER:</label>&emsp;
+                    <input type="radio" name="gender" id="gender" value="male" checked> Male&emsp;
+                    <input type="radio" name="gender" id="gender" value="female" checked> Female<br>  
+
+                </form>
+                <button type="submit" value="Submit" onclick="GetName();" class="btn btn-primary mb-2">Get-Name</button>
+                <hr class="mt-2 mb-3 hh">
+                <!-- RESULTS -->
+                <h3>Display Results:</h3>
+                <div id="output">
+                    <p id="finalResult"></p>
+                </div>                
+            </div>                    
+           
+        </div>  
+        <div id="contact">
+            <a href="https://watsup.com/"><img src=" images/icon5.png" alt="watsup" height=" 70"
+                width="70"></a>
+            <a href="https://facebook.com/"><img src=" images/icon1.jpg" alt="Facebook" height=" 70"
+                    width="70"></a>
+            <a href="https://twitter.com/"><img src=" images/icon4.jpg" alt="Twiter" height=" 70"
+                    width="70"></a>
+            <a href="https://instagram.com/"><img src=" images/icon3.jpg" alt="instagram" height=" 70"
+                    width="70"></a>
+        </div>            
+        <!-- footer -->
+        <footer class="page-footer font-small blue" id="footer">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3" id="Copyright" >© 2020 Copyright ||
+            <a href="#">All Rights Reserved.| Courtesy of the Access program - Moringa School | Akan-Names Project. | Developed by Medad Wuoddorry.</p></a>
+            </div>
+            <!-- Copyright -->      
+        </footer>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
