@@ -44,6 +44,6 @@ To fix a bug or enhance an existing module, follow these steps:
 - Medad Otieno
 
 ## License 
-[MIT](https://medad8.github.io/Akan-Name/blob/master/LICENSE.md)
+[MIT](https://medad8.github.io/medad8-Akan-Name/blob/master/LICENSE.md)
 
  © [Medad Otieno ](https://github.com/medad8)
