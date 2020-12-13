@@ -16,12 +16,12 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 | Find akan name| Male | 19-8-2020 | Kwaku |
 
 ## Demo
-Here is a working live demo : https://medad8.github.io/Akan-Name/
+Here is a working live demo : https://medad8.github.io/medad8-Akan-Name/
 
 ## Mobile support
 The Akan-Name is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-## [Usage](https://medad8.github.io/Akan-Name/)
+## [Usage](https://medad8.github.io/medad8-Akan-Name/)
 ### Development
 
 Want to contribute? Awesome!
