@@ -1,5 +1,5 @@
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Times New Roman', Times, serif;
     background-color: lightblue;
 }
 .jumbotron{
@@ -38,7 +38,7 @@ body{
     letter-spacing: 2px;   
 }
 .welcome >h3{
-    color: darkorange;
+    color: blueviolet;
     text-decoration: underline;
 }
 
@@ -51,7 +51,7 @@ body{
 }
 
 .hh{
-border-top-color: rgb(211, 175, 15);
+border-top-color:goldenrod;
 }
 
 .form-border{
